@@ -8,13 +8,27 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.setAction(mySprite, ActionKind.Walking)
+    pause(300)
+    animation.stopAnimation(animation.AnimationTypes.All, mySprite)
+    mySprite.setImage(assets.image`normal`)
 })
+function stuff () {
+    if (mySprite.overlapsWith(mySprite2) && controller.A.isPressed() == true) {
+        scene.cameraShake(3, 500)
+        mySprite.x += -30
+        info.changeLifeBy(-1)
+    }
+}
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.ay = 200
 })
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
-    otherSprite.destroy()
+info.onLifeZero(function () {
+    mySprite2.destroy()
 })
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
+	
+})
+let mySprite2: Sprite = null
 let mySprite: Sprite = null
 scene.setBackgroundImage(img`
     ................................................................................................................................................................
@@ -142,7 +156,7 @@ mySprite = sprites.create(assets.image`Player`, SpriteKind.Player)
 controller.moveSprite(mySprite, 100, 0)
 mySprite.ay = 75
 mySprite.setStayInScreen(true)
-let mySprite2 = sprites.create(assets.image`enemy`, SpriteKind.Enemy)
+mySprite2 = sprites.create(assets.image`enemy`, SpriteKind.Enemy)
 mySprite2.setPosition(142, 10)
 let anim = animation.createAnimation(ActionKind.Walking, 300)
 animation.attachAnimation(mySprite, anim)
@@ -276,3 +290,7 @@ anim.addAnimationFrame(img`
     ........................
     ........................
     `)
+info.setLife(3)
+game.onUpdate(function () {
+    stuff()
+})
