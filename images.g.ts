@@ -41,25 +41,6 @@ namespace myImages {
 . . . . . f f f f f f . . . . . 
 . . . . . f f . . f f . . . . . 
 `;
-            case "5QYbvT^lUcv:ghC5EgaL":
-            case "enemy":return img`
-. . . . . f f 4 4 f f . . . . . 
-. . . . f 5 4 5 5 4 5 f . . . . 
-. . . f e 4 5 5 5 5 4 e f . . . 
-. . f b 3 e 4 4 4 4 e 3 b f . . 
-. . f 3 3 3 3 3 3 3 3 3 3 f . . 
-. f 3 3 e b 3 e e 3 b e 3 3 f . 
-. f 3 3 f f e e e e f f 3 3 f . 
-. f b b f b f e e f b f b b f . 
-. f b b e 1 f 4 4 f 1 e b b f . 
-f f b b f 4 4 4 4 4 4 f b b f f 
-f b b f f f e e e e f f f b b f 
-. f e e f b d d d d b f e e f . 
-. . e 4 c d d d d d d c 4 e . . 
-. . e f b d b d b d b b f e . . 
-. . . f f 1 d 1 d 1 d f f . . . 
-. . . . . f f b b f f . . . . . 
-`;
             case "(k%i7,BIO!Vm^*Q`JBNz":
             case "normal":return img`
 . . . . . . f f f f . . . . . . 
@@ -78,6 +59,44 @@ f b b f f f e e e e f f f b b f
 . . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
 . . . . . f f f f f f . . . . . 
 . . . . . f f . . f f . . . . . 
+`;
+            case "5QYbvT^lUcv:ghC5EgaL":
+            case "enemy":return img`
+. . . . . f f 5 5 f f . . . . . 
+. . . . f 5 5 5 5 5 5 f . . . . 
+. . . f 9 9 9 9 9 9 9 9 f . . . 
+. . f 9 9 5 5 5 5 5 5 9 9 f . . 
+. . f 9 5 5 5 5 5 5 5 5 9 f . . 
+. f 5 5 e 5 5 e e 5 5 e 5 5 f . 
+. f 5 5 f f e e e e f f 5 5 f . 
+. f 5 5 f d f e e f d f 5 5 f . 
+. f 5 5 e 1 f 4 4 f 1 e 5 5 f . 
+f f 5 5 f 4 4 4 4 4 4 f 5 5 f f 
+f 5 5 f f f e e e e f f f 5 5 f 
+. f . e f 8 8 8 8 8 8 f e . . . 
+. . . e 8 8 8 8 8 8 8 8 e . . . 
+. . . e . 8 8 9 9 8 8 . e . . . 
+. . . 8 8 8 9 9 9 9 8 8 8 . . . 
+. . 8 8 8 8 9 9 9 9 8 8 8 8 . . 
+`;
+            case "image2":
+            case "myImage0":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
 `;
         }
         return null;

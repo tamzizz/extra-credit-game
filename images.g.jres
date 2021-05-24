@@ -9,15 +9,20 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Player"
     },
-    "5QYbvT^lUcv:ghC5EgaL": {
-        "data": "hwQQABAAAAAAAAAA8A8AAAAA8P//+wAAAPA/s7vr7gAAvzOzu+/0D/A+4//+/7wPX+Szv0G/3fFPRTP+T969/VRF4+5E3t2xVEXj7kTevb1PRTP+T97d8V/ks79Bv7398D7j//7/vA8AvzOzu+/0DwDwP7O76+4AAADw///7AAAAAAAA8A8AAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "enemy"
-    },
     "(k%i7,BIO!Vm^*Q`JBNz": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAPAPAAAAAPD///7gRAAA/+/v7k9NAPD/Lv/k/v8A8O/yv9EuQv//4vL+3yRC/y/i8k7dJFIPL+LyTt0kUg//4vL+3yRC//Dv8r/RLkL/8P8u/+T+/wAA/+7v7k9NAADw///+4EQAAAAA8A8AAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "normal"
+    },
+    "5QYbvT^lUcv:ghC5EgaL": {
+        "data": "hwQQABAAAAAAAAAA8A8AAAAA8P//9QAAAPBfVVUFAIAAn1lVVe/uiPCZ5f/+/wiIX1lV30GPiIhfWVX+T46ImVVZ5e5EjpiZVVnl7kSOmJlfWVX+T46ImV9ZVd9Bj4iI8Jnl//7/CIgAn1lVVe/uiADwX1VVBQCAAADw//8FAAAAAAAA8A8AAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "enemy"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage0"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
